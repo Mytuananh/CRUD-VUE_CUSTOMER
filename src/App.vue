@@ -1,15 +1,15 @@
 <template>
-  
-   <router-view /> <Customer />
+  <HelloWorld />
+   <router-view /> 
 </template>
 
 <script>
-import Customer from './components/Customer.vue'
+import HelloWorld from "./components/HelloWorld.vue"
 
 
 export default {
   name: 'App',
-  components: { Customer}
+  components: { HelloWorld}
 }
 </script>
 

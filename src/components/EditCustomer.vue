@@ -65,7 +65,8 @@ export default {
             handleSubmit() {
              CustomerService.editCus(this.Customer.id,this.Customer).then((response) => {
                  this.Customer = response.data;
-         }) 
+         })
+         
         }
         },
         mounted() {

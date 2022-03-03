@@ -8,9 +8,10 @@ import {faPen} from "@fortawesome/free-solid-svg-icons"
 import {faTrash} from "@fortawesome/free-solid-svg-icons"
 import {faBookmark} from "@fortawesome/free-solid-svg-icons"
 import {faUserSlash} from "@fortawesome/free-solid-svg-icons"
+import { faUserGroup} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faPhone, faPen, faTrash, faBookmark, faUserSlash);
+library.add(faPhone, faPen, faTrash, faBookmark, faUserSlash, faUserGroup);
 const app = createApp(App)
 app.use(router)
 app.mount('#app')
